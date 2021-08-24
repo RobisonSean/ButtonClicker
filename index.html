@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Dojonary</h1>
+            <input class="searchbar" type="text" placeholder="Search">
+            <button class="login" onclick="change(this)">Login</button>
+        </header>
+        <div class="main">
+            <div class="leftcol">
+                <div class="ninja1">
+                    <div class="col">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>plural: ninjas</p>
+                        <button class=btn onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="col">
+                        <h4>
+                            A practioner skilled in the <a href="#">Japanese</a> art of ninjutsu
+                        </h4>
+                    </div>
+                </div>
+                <div class="ninja2">
+                    <div class="col">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>plural: ninjas</p>
+                        <button class=btn onclick="alert('Ninja was liked')">59 likes</button>
+                    </div>
+                    <div class="col">
+                        <h4>A <a href="#">programer</a> who breaks down problems with a <a href="#">zen</a>-like focus
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="rightcol">
+                <h2>Dogonary is difined by YOU</h2>
+                <button class=greenbtn onclick="hide(this)">Add Definiton</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

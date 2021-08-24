@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.container{
+    padding-left: 100px;
+    padding-left: 100px;
+}
+header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 70px;
+    width: 80vw;
+    position: fixed;
+    background: #c1c1c1;
+    border-radius: 2px;
+}
+header h1{
+    margin-left: 100px
+}
+.searchbar{
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    padding: 0px 30px;
+}
+.login{
+    background: #2a78e4;
+    margin-right: 100px;
+    padding: 0px 15px;
+    box-shadow: black 1px 1px;
+    color: whitesmoke;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    padding-top: 100px;
+}
+.ninja1{
+    border: black solid 3px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+.ninja1 h4{
+    margin-left: 100px;
+}
+.ninja2{
+    border: black solid 3px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin-top: 40px;
+}
+.ninja2 h4{
+    margin-left: 100px;
+}
+.rightcol{
+    margin-left: 30px;
+    border: black solid 3px;
+    padding: 10px;
+    width: 20vw;
+    height: 100px;
+}
+.btn{
+    background: #ffd966;
+    margin-top: 20px;
+    padding: 5px;
+    box-shadow: black 1px 1px;
+}
+.greenbtn{
+    background: #93c47d;
+    margin-top: 20px;
+    padding: 5px;
+}
