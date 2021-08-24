@@ -39,19 +39,11 @@ header h1{
     height: 100vh;
     width: 80vw;
     padding-top: 100px;
+    
+    /* align-items: center; */
 }
+
 .ninja1{
-    border: black solid 3px;
-    display: flex;
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
-    width: 40vw;
-}
-.ninja1 h4{
-    margin-left: 100px;
-}
-.ninja2{
     border: black solid 3px;
     display: flex;
     padding: 30px;
@@ -60,8 +52,24 @@ header h1{
     width: 40vw;
     margin-top: 40px;
 }
-.ninja2 h4{
+/* .ninja1 h4{
     margin-left: 100px;
+} */
+/* .ninja2{
+    border: black solid 3px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin-top: 40px;
+    
+} */
+/* .ninja2 h4{
+    margin-left: 100px;
+} */
+.leftcol{
+    margin: 10px;
 }
 .rightcol{
     margin-left: 30px;
@@ -69,6 +77,7 @@ header h1{
     padding: 10px;
     width: 20vw;
     height: 100px;
+    margin-top: 50px;
 }
 .btn{
     background: #ffd966;
@@ -80,4 +89,7 @@ header h1{
     background: #93c47d;
     margin-top: 20px;
     padding: 5px;
+}
+.noun{
+    font-style: italic;
 }
